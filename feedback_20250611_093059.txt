@@ -1,0 +1,30 @@
+URL: URL: https://github.com/sabka95/GenAI/blob/Day3/ExerciceXP_1.ipynb
+suggestions for improvement:
+- The comments in the code could be improved for clarity.  For example, instead of just saying '# Step 1: Create Cat Objects', consider a comment that also explains what the code is doing such as  '# Step 1: Create three Cat objects with different names and ages.'
+- Add more comprehensive docstrings to the `find_oldest_cat` function. This will help others (and your future self) understand the function's purpose, parameters, return value, and any assumptions it makes.
+- The `find_oldest_cat` function could be made more efficient for a larger number of cats by using a loop or list comprehension instead of nested `if` statements.
+- Consider adding error handling for cases where invalid input (e.g., non-positive ages or non-string names) might be provided.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sabka95/GenAI/blob/Day3/ExerciseXP_2.ipynb
+suggestions for improvement:
+- The `Dog` class fulfills the requirements of Exercise 2, but the exercise asks to compare dog sizes, which is missing from the code.  Add a comparison function or modify the output to include a size comparison.
+- Improve method names for better readability.  For example, instead of `bark()` consider `bark_sound()` and instead of `jump()` consider `jump_height()`.
+- Add docstrings to the `Dog` class and its methods to explain their purpose and parameters.
+- The output strings in `print()` could be formatted more clearly for improved readability (e.g., using f-strings consistently and aligning text).
+Correctness: 85%
+-----
+URL: URL: https://github.com/sabka95/GenAI/blob/Day3/ExerciseXP_3.ipynb
+suggestions for improvement:
+- The `sep = ' \n'` in `print(i, sep = ' \n')` is unnecessary.  Python's `print()` function automatically adds a newline by default unless you specify otherwise.  This makes the code slightly less readable and more complex than it needs to be. Simply using `print(i)` would be sufficient and clearer.
+- Add docstrings to the `__init__` and `sing_me_a_song` methods to improve readability and explain their purpose.
+Correctness: 100%
+-----
+URL: URL: https://github.com/sabka95/GenAI/blob/Day3/ExerciseXP_4.ipynb
+suggestions for improvement:
+- Improve the `get_animals` method to use a more Pythonic approach, such as `print('\n'.join(self.animals))` for better readability and efficiency. The current approach uses a loop which is unnecessary.
+- The `sort_animals` method modifies the original `animals` list in place.  It would be better to create a sorted copy to avoid unexpected side effects. Consider creating a new list `sorted_animals = sorted(self.animals)`.
+- Add docstrings to all methods to improve code clarity and explain their functionality. Docstrings are essential for maintainability and understanding the code's purpose.
+- The `get_groups` method only prints the dictionary. It's recommended to iterate and print the grouped animals in the format specified in the instructions:  'B: ['Baboon', 'Bear']'.
+Correctness: 90%
+-----
