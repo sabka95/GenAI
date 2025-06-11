@@ -1,0 +1,31 @@
+URL: URL: https://github.com/sabka95/GenAI/blob/Day4/Exercise_XP_1.ipynb
+suggestions for improvement:
+- The instructions for Exercise 1 could be more specific.  It should explicitly state to add a `Siamese` class inheriting from `Cat` and provide a suggestion for a unique attribute or method (e.g., a specific sound they make).
+- Add comments explaining the purpose of each class and method to improve readability.
+- For Exercise 2 and 3, provide complete code examples rather than just conceptual outlines. This will make it easier for students to understand the expected output and functionality.
+- In Exercise 3, the `PetDog` class should include error handling for the case where the dog is not trained. The `do_a_trick()` method should have a more explicit message if the dog isn't trained.
+Correctness: 85%
+-----
+URL: URL: https://github.com/sabka95/GenAI/blob/Day4/Exercise_XP_2.ipynb
+suggestions for improvement:
+- The `fight()` method could be improved by handling the case where both dogs have the same fighting capabilities (run_speed * weight).  It currently only accounts for one dog being strictly stronger.
+- Add more comprehensive docstrings to the class and its methods, explaining parameters and return values. This will significantly improve the readability and understandability of the code.
+Correctness: 85%
+-----
+URL: URL: https://github.com/sabka95/GenAI/blob/Day4/Exercise_XP_3.ipynb
+suggestions for improvement:
+- The `play` method in the `PetDog` class should print the names of all dogs playing together, not just a generic message.  The current implementation ignores the `*args` parameter.
+- The `Dog` class (assumed from the import statement) is not included, so it cannot be fully evaluated.  It's essential to provide the complete code for comprehensive assessment.
+- Add docstrings to methods for better understanding and readability.
+- Consider adding error handling (e.g., `try-except` blocks) to the methods, especially if the methods are designed to work with user input.
+Correctness: 85%
+-----
+URL: URL: https://github.com/sabka95/GenAI/blob/Day4/Exercise_XP_4.ipynb
+suggestions for improvement:
+- The `Person` class should include a `last_name` attribute in the `__init__` method.  Currently, it's only optionally passed and defaults to an empty string.
+- The `Family` class's `check_majority` method only prints a message; it doesn't explicitly return a boolean value, which would be more consistent with the `is_18` method in the `Person` class. Consider returning `True` or `False` depending on the age.
+- The code lacks error handling.  What happens if `check_majority` is called with a first name that doesn't exist in the family?  Adding a check for this would improve robustness.
+- Improve naming conventions. `person.name` should be `person.first_name` for clarity and consistency.
+- The `family_presentation()` method could be improved to provide more structured output (e.g., formatted string).
+Correctness: 90%
+-----
