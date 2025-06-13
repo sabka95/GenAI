@@ -1,0 +1,18 @@
+URL: URL: https://github.com/sabka95/GenAI/blob/Day5/game.py
+suggestions for improvement:
+- The `rock-paper-scissors.py` file is missing, which is a crucial part of the assignment.  The provided code only implements the `game.py` portion.
+- The `get_user_item` function uses integer input (1, 2, 3) for rock, paper, scissors. The instructions specify direct string input. This should be changed to align with the requirements.
+- Error handling in `get_user_item` is good, but could be improved by providing more specific error messages to the user.
+- The `main` function (and related functions in `rock-paper-scissors.py`) are missing, preventing a complete game implementation as described in the instructions.  This significantly impacts the correctness score.
+- Add comprehensive docstrings to all functions to improve readability and understanding.
+- Consider using a more concise way to determine the game result in `get_game_result` perhaps using a dictionary or a lookup table.
+Correctness: 80%
+-----
+URL: URL: https://github.com/sabka95/GenAI/blob/Day5/rock-paper_scissors.py
+suggestions for improvement:
+- The `get_user_menu_choice` function's error handling could be improved.  Instead of just printing an error message, it should re-prompt the user for input.  A loop would be ideal.
+- The `print_results` function could be more user-friendly.  Instead of just printing the dictionary, it should format the output to be more readable (e.g., "Wins: 2, Losses: 4, Draws: 3").
+- The main loop could benefit from more descriptive variable names (e.g., `user_choice` instead of `choice`).
+- Add input validation to handle potential non-numeric input in `main()` before accessing `results` dictionary.
+Correctness: 90%
+-----
