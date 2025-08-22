@@ -1,0 +1,25 @@
+{
+  "servers": [
+    {
+  "name": "web",
+  "transport": "stdio",
+  "command": "D:/GENAI/Week13/Day4/Mini_Projet/.venv/Scripts/python.exe",
+  "args": ["-m", "duckduckgo_mcp_server.server"],
+  "env": {}
+    },
+    {
+  "name": "files",
+  "transport": "stdio",
+  "command": "C:/nvm4w/nodejs/npx.cmd",
+  "args": ["-y", "mcp-files"],
+  "env": { "ROOT": "D:/GENAI/Week13/Day4/Mini_Projet/data" }
+  },
+    {
+      "name": "mine",
+      "transport": "stdio",
+      "command": "D:/GENAI/Week13/Day4/Mini_Projet/.venv/Scripts/python.exe",
+      "args": ["-m", "my_server.server"],
+      "env": {}
+    }
+  ]
+}
